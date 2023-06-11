@@ -1,0 +1,115 @@
+/* 
+    Created on : Sep 25, 2021, 8:17:55 PM
+    Author     : NUWAA
+*/
+
+.vote-container{
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    display: flex;
+    /*    background-color: yellow;*/
+    margin-bottom: 60px;
+}
+
+.vote-container .column{
+    flex: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+.vote-container .party-column{
+    border-right: 1px solid red;
+}
+
+.candidate-column{
+    border-left: 1px solid red;
+    display: none;
+}
+
+.candidate-column.candidate-column-active{
+    display: block;
+}
+
+.vote-container button{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #ff0033;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px #000000;
+    cursor: pointer;
+}
+
+.vote-container button:hover{
+    color: yellow;
+    background-color: #cc0000;
+}
+
+.vote-container .party-column form{
+    right: 80px;
+    float: right;
+}
+
+.vote-container .candidate-column form{
+    right: 68px;
+    float: right;
+}
+
+.vote-container form input{
+    width: 200px;
+    padding: 10px;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid #ff0033;
+    outline: none;
+}
+
+.vote-container form input:hover{
+    border-bottom: 1px solid #cc0000;
+}
+
+.vote-container table{
+    width: 100%;
+    top: 10px;
+    border-collapse: collapse;
+}
+
+.vote-container table tr{
+    border-bottom: 1px solid white;
+}
+
+.vote-container table tr th {
+    color: white;
+    text-align: left;
+    padding: 10px;
+    background-color: #ff0033;
+}
+
+.vote-content:hover{
+    color: yellow;
+}
+
+.vote-content td{
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+    text-transform: none;
+    background-color: #ff6666;
+}
+
+.vote-content td img{
+    width: 40px;
+    height: 40px;
+}
+
+.vote-content .select{
+    width: 10px;
+    background-color: white;
+}
+
+.vote-content .select form{
+    right: 0px;
+}
+
